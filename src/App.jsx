@@ -141,7 +141,7 @@ export default function App() {
   }, [currentTextureIndex, model, textures]);
   
   useEffect(() => {
-    loadModel('src/assets/shipp.glb');
+    loadModel('/shipp.glb');
   }, []);
 
   const toggleMeshProperties = () => {
@@ -179,19 +179,19 @@ export default function App() {
     className={`icon ${showMeshProperties ? 'active' : ''}`}
     onClick={toggleMeshProperties}
     title="Mesh Properties">
-    <img src="src/assets/MeshProperties.jpeg" alt="Mesh Properties" />
+    <img src="/MeshProperties.jpeg" alt="Mesh Properties" />
   </div>
   <div
     className={`icon ${showMeshHierarchy ? 'active' : ''}`}
     onClick={toggleMeshHierarchy}
     title="Mesh Hierarchy">
-    <img src="src/assets/MeshHeirarchy.jpeg" alt="Mesh Hierarchy" />
+    <img src="/MeshHeirarchy.jpeg" alt="Mesh Hierarchy" />
   </div>
   <div
     className={`icon ${selectedProperty === 'scene' ? 'active' : ''}`}
     onClick={() => setSelectedProperty(selectedProperty === 'scene' ? null : 'scene')}
     title="Scene and light Properties">
-    <img src="src/assets/Camera.jpeg" alt="Scene Properties" />
+    <img src="/Camera.jpeg" alt="Scene Properties" />
   </div>
 </div>
         {showMeshProperties && selectedMesh && (

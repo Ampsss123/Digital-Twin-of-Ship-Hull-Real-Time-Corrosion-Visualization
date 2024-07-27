@@ -44,16 +44,16 @@ const loadTextures = async (imagePaths) => {
 };
 
 const imagePaths = [
-  'src/components/Dataset/147_Jan_img1.jpg',
-  'src/components/Dataset/288_Feb_img2.png',
-  'src/components/Dataset/321_Mar_img3.png',
-  'src/components/Dataset/456_Apr_img4.png',
-  'src/components/Dataset/591_May_img5.png',
-  'src/components/Dataset/694_June_img6.png',
-  'src/components/Dataset/738_July_img7.png',
-  'src/components/Dataset/834_Aug_img8.png',
-  'src/components/Dataset/915_Sept_img9.png',
-  'src/components/Dataset/999_Oct_img10.png'
+  'Dataset/147_Jan_img1.jpg',
+  'Dataset/288_Feb_img2.png',
+  'Dataset/321_Mar_img3.png',
+  'Dataset/456_Apr_img4.png',
+  'Dataset/591_May_img5.png',
+  'Dataset/694_June_img6.png',
+  'Dataset/738_July_img7.png',
+  'Dataset/834_Aug_img8.png',
+  'Dataset/915_Sept_img9.png',
+  'Dataset/999_Oct_img10.png'
 ];
 
 export default function App() {
